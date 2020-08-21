@@ -1,6 +1,7 @@
 # APIPlatform
 
 A installer :
+<<<<<<< HEAD
 
 skeleton symfony (4.4).
 doctrine migration.
