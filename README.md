@@ -1,5 +1,12 @@
 # APIPlatform
 
+A installer :
+
+skeleton symfony (4.4)
+doctrine migration
+make bundle
+Api (API Platform)
+
 Les relations entre entités, il y a trois: OneToOne, ManyToOne et ManyToMany.
 
 Dans notre exemple, la relation entre Article et Tag est de type ManyToMany, c'est à dire qu'un objet Article peut être lié à 0 ou plusieurs objets Tag et inversement. La relation entre Article et Comment est de type ManyToOne, ce qui veut qu'un objet Article peut avoir 0 ou plusieurs objets Comment, tandis qu'un objet Comment ne peut être lié qu'à un seul objet Article.
